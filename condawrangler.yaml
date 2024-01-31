@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: condawrangler
+spec:
+  profile:
+    displayName: condawrangler
+    email: condawrangler@example.com
+    picture: https://example.com/staff/condawrangler-with-party-hat.jpeg
