@@ -8,4 +8,4 @@ spec:
     displayName: guest
   parent: ops
   children: [backstage, other]
-  members: ["default/guest"]
+  members: []
