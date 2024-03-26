@@ -1,7 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: default
+  name: guest
+  namespace: default
 spec:
   type: business-unit
   profile:
