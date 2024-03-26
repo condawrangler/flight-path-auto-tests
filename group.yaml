@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: default/guest
+  name: guest
 spec:
   type: business-unit
   profile:
-    displayName: default/guest
+    displayName: guest
   parent: ops
   children: [backstage, other]
-  members: ["defatul/guest"]
+  members: ["default/guest"]
